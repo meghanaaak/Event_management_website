@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complete Responsive Event Organizer Website Design Tutorial</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="style (2).css">
+
+</head>
+<body>
+    
+<!-- header section starts  -->
+
+<header class="header">
+
+    <a href="#" class="logo"><span>NIT</span>events</a>
+
+    <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#xcalendar">calendar</a>
+        <a href="#about">about</a>
+        <a href="#gallery">gallery</a>
+        <a href="#Festival">Festival</a>
+        <a href="http://localhost:4000/events" class="navbar-link">Details</a>
+         
+         <!-- <iframe src="http://localhost:4000/events" width="100%" height="600"></iframe> -->
+
+        <a href="#contact">contact</a>
+    </nav>
+
+    <div id="menu-bars" class="fas fa-bars"></div>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+    <div class="content">
+        <h3>Discover the best of campus life <span> Join Us! </span></h3>
+        <a href="#" class="btn">contact us</a>
+    </div>
+
+    <div class="swiper-container home-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="C:\Users\Meghana Kankipati\Downloads\WhatsApp Image 2023-03-26 at 22.58.40.jpeg" alt=""></div>
+            <div class="swiper-slide"><img src="C:\Users\Meghana Kankipati\Downloads\WhatsApp Image 2023-03-26 at 22.58.38.jpeg" alt=""></div>
+            <div class="swiper-slide"><img src="C:\Users\Meghana Kankipati\Downloads\WhatsApp Image 2023-03-26 at 22.58.41.jpeg" alt=""></div>
+            <div class="swiper-slide"><img src="C:\Users\Meghana Kankipati\Downloads\WhatsApp Image 2023-03-26 at 22.58.41 (1).jpeg" alt=""></div>
+            <div class="swiper-slide"><img src="C:\Users\Meghana Kankipati\Downloads\WhatsApp Image 2023-03-26 at 22.58.42.jpeg" alt=""></div>
+            <div class="swiper-slide"><img src="C:\Users\Meghana Kankipati\Downloads\WhatsApp Image 2023-03-26 at 23.00.55.jpeg" alt=""></div>
+        </div>
+    </div>
+
+</section>
+
+<!-- home section ends -->
+
+<!-- service section starts  -->
+<section class="xcalendar" id="xcalendar">
+<h1 class="heading"> calendar <!--<span>services</span>--> </h1>
+<div class="xcontainer">
+    <div class="xleft">
+      <div class="xcalendar">
+        <div class="month">
+          <i class="fas fa-angle-left prev"></i>
+          <div class="date">december 2015</div>
+          <i class="fas fa-angle-right next"></i>
+        </div>
+        <div class="weekdays">
+          <div>Sun</div>
+          <div>Mon</div>
+          <div>Tue</div>
+          <div>Wed</div>
+          <div>Thu</div>
+          <div>Fri</div>
+          <div>Sat</div>
+        </div>
+        <div class="days"></div>
+        <div class="goto-today">
+          <div class="goto">
+            <input type="text" placeholder="mm/yyyy" class="date-input" />
+            <button class="goto-btn">Go</button>
+          </div>
+          <button class="today-btn">Today</button>
+        </div>
+      </div>
+    </div>
+    <div class="right">
+      <div class="today-date">
+        <div class="event-day">wed</div>
+        <div class="event-date">12th december 2022</div>
+      </div>
+      <div class="events"></div>
+      <div class="add-event-wrapper">
+        <div class="add-event-header">
+          <div class="title">Add Event</div>
+          <i class="fas fa-times close"></i>
+        </div>
+        <div class="add-event-body">
+          <div class="add-event-input">
+            <input type="text" placeholder="Event Name" class="event-name" />
+            
+          </div>
+          <div class="add-event-input">
+            <input
+              type="text"
+              placeholder="Event Time From"
+              class="event-time-from"
+            />
+          </div>
+          <div class="add-event-input">
+            <input
+              type="text"
+              placeholder="Event Time To"
+              class="event-time-to"
+            />
+          </div>
+        </div>
+        <div class="add-event-footer">
+          <button class="add-event-btn">Add Event</button>
+          <a href="form.html" class="btn">Add Event</a>
+        </div>
+      </div>
+    </div>
+    <button class="add-event">
+      <i class="fas fa-plus"></i>
+    </button>
+  </div>
+</section>
+  
+
+
+<!-- service section ends -->
+
+<!-- about section starts  -->
+
+<section class="about" id="about">
+
+<h1 class="heading"><span>about</span> us </h1>
+
+<div class="row">
+
+    <div class="image">
+        <img src="C:\Users\Meghana Kankipati\OneDrive\Pictures\Screenshot 2023-03-27 100810.png" alt="">
+    </div>
+
+    <div class="content">
+        <h3>Engage, Connect and Learn,</h3>
+        <p>Being active participants in the cultural events in our campus made us take this intiative.</p>
+        <p>To share the same mind set as us, we created this website for an easy and efficient means of event management as well as event organisation.</p>
+        <a href="#" class="btn">contact us</a>
+    </div>
+
+</div>
+
+</section>
+
+<!-- about section ends -->
+
+<!-- gallery section starts  -->
+
+<section class="gallery" id="gallery">
+
+    <h1 class="heading">our <span>gallery</span></h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="C:\Users\Meghana Kankipati\Downloads\WhatsApp Image 2023-03-26 at 23.02.59.jpeg" alt="">
+            <h3 class="title">photos and events</h3>
+            <div class="icons">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-share"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="C:\Users\Meghana Kankipati\Downloads\WhatsApp Image 2023-03-26 at 23.02.31.jpeg" alt="">
+            <h3 class="title">photos and events</h3>
+            <div class="icons">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-share"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="C:\Users\Meghana Kankipati\Downloads\WhatsApp Image 2023-03-26 at 23.00.55 (1).jpeg" alt="">
+            <h3 class="title">photos and events</h3>
+            <div class="icons">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-share"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="C:\Users\Meghana Kankipati\Downloads\WhatsApp Image 2023-03-26 at 23.00.56.jpeg" alt="">
+            <h3 class="title">photos and events</h3>
+            <div class="icons">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-share"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="C:\Users\Meghana Kankipati\Downloads\WhatsApp Image 2023-03-26 at 23.00.56 (1).jpeg" alt="">
+            <h3 class="title">photos and events</h3>
+            <div class="icons">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-share"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="C:\Users\Meghana Kankipati\Downloads\WhatsApp Image 2023-03-26 at 22.58.43.jpeg" alt="">
+            <h3 class="title">photos and events</h3>
+            <div class="icons">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-share"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+        </div>
+
+       <div class="box">
+            <img src="C:\Users\Meghana Kankipati\Downloads\WhatsApp Image 2023-03-26 at 22.58.42.jpeg" alt="">
+            <h3 class="title">photos and events</h3>
+            <div class="icons">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-share"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="C:\Users\Meghana Kankipati\Downloads\WhatsApp Image 2023-03-26 at 22.58.40.jpeg" alt="">
+            <h3 class="title">photos and events</h3>
+            <div class="icons">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-share"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+        </div>
+
+      <!-- <div class="box">
+            <img src="images/g-9.jpg" alt="">
+            <h3 class="title">photos and events</h3>
+            <div class="icons">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-share"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+        </div>--> 
+
+    </div>
+
+</section>
+
+<!-- gallery section ends -->
+
+<!-- price section starts  -->
+
+<section class="Festival" id="Festival">
+
+    <h1 class="heading"><!-- our--> <span>Festival</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3 class="title">Diwali</h3>
+            <h3 class="amount">23/03/23</h3>
+            <ul>
+                <li><i class="fas fa-check"></i>full services</li>
+                <li> <i class="fas fa-check"></i> decorations </li>
+                <li> <i class="fas fa-check"></i> music and photos </li>
+                <li> <i class="fas fa-check"></i> food and drinks </li>
+                <li> <i class="fas fa-check"></i> invitation card </li>
+            </ul>
+            <a href="https://strawpoll.com/polls/kogjkJaPPZ6" class="btn">Vote here</a>
+        </div>
+
+        <div class="box">
+            <h3 class="title">Christmas</h3>
+            <h3 class="amount">25/12/23</h3>
+            <ul>
+                <li><i class="fas fa-check"></i>full services</li>
+                <li> <i class="fas fa-check"></i> decorations </li>
+                <li> <i class="fas fa-check"></i> music and photos </li>
+                <li> <i class="fas fa-check"></i> food and drinks </li>
+                <li> <i class="fas fa-check"></i> invitation card </li>
+            </ul>
+            <a href="https://strawpoll.com/polls/LVyK8eKQ5n0" class="btn">Vote here</a>
+        </div>
+
+        <div class="box">
+            <h3 class="title">Holi</h3>
+            <h3 class="amount">13/10/23</h3>
+            <ul>
+                <li><i class="fas fa-check"></i>full services</li>
+                <li> <i class="fas fa-check"></i> decorations </li>
+                <li> <i class="fas fa-check"></i> music and photos </li>
+                <li> <i class="fas fa-check"></i> food and drinks </li>
+                <li> <i class="fas fa-check"></i> invitation card </li>
+            </ul>
+            <a href="https://strawpoll.com/polls/XmZRxJK3Lnd" class="btn">Vote here</a>
+        </div>
+
+        <div class="box">
+            <h3 class="title">Eid</h3>
+            <h3 class="amount">26/07/23</h3>
+            <ul>
+                <li><i class="fas fa-check"></i>full services</li>
+                <li> <i class="fas fa-check"></i> decorations </li>
+                <li> <i class="fas fa-check"></i> music and photos </li>
+                <li> <i class="fas fa-check"></i> food and drinks </li>
+                <li> <i class="fas fa-check"></i> invitation card </li>
+            </ul>
+            <a href="https://strawpoll.com/polls/e7ZJG8K5Py3" class="btn">Vote here</a>
+        </div>
+
+    </div>
+
+
+</section>
+
+<!-- price section ends -->
+
+<!-- review section starts  -->
+
+<!-- <section class="reivew" id="review"> 
+    
+    <h1 class="heading">client's <span>review</span></h1>
+
+    <div class="review-slider swiper-container">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide box">
+                <i class="fas fa-quote-right"></i>
+                <div class="user">
+                    <img src="C:\Users\Meghana Kankipati\Downloads\account.png" alt="">
+                    <div class="user-info">
+                        <h3>Meghana</h3>
+                        <span>happy clients</span>
+                    </div>
+                </div>
+                <p>Great!.
+                    jdhjvfvslfwkfowrjlk
+                </p>
+            </div>
+
+            <div class="swiper-slide box">
+                <i class="fas fa-quote-right"></i>
+                <div class="user">
+                    <img src="C:\Users\Meghana Kankipati\Downloads\account.png" alt="">
+                    <div class="user-info">
+                        <h3>Archana</h3> 
+                        <span>happy clients</span>
+                    </div>
+                </div>
+                <p>good.
+                    ssjbsrjgnrskfjae
+                </p>
+            </div>
+
+            <div class="swiper-slide box">
+                <i class="fas fa-quote-right"></i>
+                <div class="user">
+                    <img src="C:\Users\Meghana Kankipati\Downloads\account.png" alt="">
+                    <div class="user-info">
+                        <h3>Vivek</h3>
+                        <span>happy clients</span>
+                    </div>
+                </div>
+                <p>Well done!.
+                    dkfjkfnlrkfpq3r
+                </p>
+            </div>
+
+            <div class="swiper-slide box">
+                <i class="fas fa-quote-right"></i>
+                <div class="user">
+                    <img src="C:\Users\Meghana Kankipati\Downloads\account.png" alt="">
+                    <div class="user-info">
+                        <h3>Kashik</h3>
+                        <span>happy clients</span>
+                    </div>
+                </div>
+                <p>kharbendiya....</p>
+            </div>
+
+        </div>
+
+    </div>
+
+</section> -->
+
+<!-- review section ends -->
+
+<!-- contact section starts  -->
+
+<section class="contact" id="contact">
+
+    <h1 class="heading"> <span>contact</span> us </h1>
+
+    <form action="">
+        <div class="inputBox">
+            <input type="text" placeholder="name">
+            <input type="email" placeholder="email">
+        </div>
+        <div class="inputBox">
+            <input type="number" placeholder="number">
+            <input type="text" placeholder="branch">
+        </div>
+        <textarea name="" placeholder="your message" id="" cols="30" rows="10"></textarea>
+        <input type="submit" value="send message" class="btn">
+    </form>
+
+</section>
+
+<!-- contact section ends -->
+
+<!-- footer section starts  -->
+
+<section class="footer">
+
+    <div class="box-container">
+
+       <!-- <div class="box">
+            <h3>branches</h3>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> mumbai </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> jogeshwari </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> goregaon </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> navi mumbai </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> andheri </a>
+        </div>-->
+
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="#"> <i class="fas fa-arrow-right"></i> home </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> Calendar </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> about us </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> gallery </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> Festivals</a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> review </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> contact </a>
+        </div>
+
+        <div class="box">
+            <h3>contact info</h3>
+            <a href="#"> <i class="fas fa-phone"></i> 9052411077 </a>
+            <a href="#"> <i class="fas fa-phone"></i> 9008742091 </a>
+            <a href="#"> <i class="fas fa-envelope"></i> kankipatimeghana23@gmail.com </a>
+            <a href="#"> <i class="fas fa-envelope"></i> archanamanjunathk@gmail.com </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> Andhra  Pradesh, India - 400104 </a>
+        </div>
+
+        <div class="box">
+            <h3>follow us</h3>
+            <a href="#"> <i class="fab fa-facebook-f"></i> facebook </a>
+            <a href="#"> <i class="fab fa-twitter"></i> twitter </a>
+            <a href="#"> <i class="fab fa-instagram"></i> instagram </a>
+            <a href="#"> <i class="fab fa-linkedin"></i> linkedin </a>
+        </div>
+
+    </div>
+
+   <!-- <div class="credit"> created by <span>mr. web designer</span> | all rights reserved </div>-->
+
+</section>
+
+<!-- footer section ends -->
+
+ theme toggler  
+
+<div class="theme-toggler">
+
+    <div class="toggle-btn">
+        <i class="fas fa-cog"></i>
+    </div>
+
+    <h3>choose color</h3>
+
+    <div class="buttons">
+        <div class="theme-btn" style="background: #3867d6;"></div>
+        <div class="theme-btn" style="background: #f7b731;"></div>
+        <div class="theme-btn" style="background: #ff0033;"></div>
+        <div class="theme-btn" style="background: #20bf6b;"></div>
+        <div class="theme-btn" style="background: #fa8231;"></div>
+        <div class="theme-btn" style="background: #131313;"></div>
+    </div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="script (1).js"></script>
+
+</body>
+</html>

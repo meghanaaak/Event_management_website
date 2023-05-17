@@ -1,0 +1,66 @@
+
+
+/* Form styles */
+form {
+  width: 500px;
+  height: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color : whitesmoke;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  font-family: Arial, sans-serif;
+}
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #666;
+}
+input[type="text"],
+input[type="date"],
+input[type="time"],
+textarea {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+input[type="file"] {
+  margin-top: 10px;
+}
+input[type="submit"] {
+  background-color: #585050;
+  color:black;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 16px;
+}
+input[type="submit"]:hover {
+  background-color: #3e8e41;
+}
+/* Center form */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f2f2f2;
+}
+h1 {
+  text-align: center;
+  font-size: 36px;
+  color: #333;
+  margin-bottom: 20px;
+}
+.form-actions {
+  display: flex;
+  justify-content: center;
+}
